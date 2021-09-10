@@ -1,0 +1,269 @@
+section 
+{
+    display: flex;
+    flex-direction: row;
+}
+.containe
+{
+    width: 80%;
+    height: auto;
+    margin-right: 3%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-bottom:3%;
+}
+.heading
+{
+    height: 12%;
+    padding: 3%;
+    padding-bottom:0%;
+    text-align: center;
+    font-size:28px;
+    word-spacing: 2px;
+    margin-bottom:-4%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    line-height:1.2;
+}
+.option
+{
+    padding:2%;
+    margin-bottom:-2%;
+    margin-top:0%;
+    margin-left:60%;
+    font-size:large;
+    color:#fff;
+
+}
+.option div
+{
+    display: inline-block;
+    margin-left: 6px;
+    background-color: #89023e;
+    box-shadow: 2px 2px 4px 1px rgb(184, 181, 181);
+    padding:4px;
+    border-radius: 50%;
+}
+.extra
+{
+    text-align:left;
+}
+
+.extram
+{
+    font-size:20px;
+    line-height:1.4;
+    font-style: italic;
+    word-spacing: 5px;
+    text-align:center;
+    margin-bottom: 1%;
+}
+.image
+{
+    height: 30vh;
+    margin-bottom: 4% !important;
+    margin-top:0%;
+}
+.matter
+{
+    font-size:20px;
+    line-height:1.4;
+    margin-top: 1%;
+    font-style: italic;
+    word-spacing: 5px;
+    text-align:center;
+}
+.matter::before
+{
+    content: "L";
+    font-size: 60px;
+    position: relative;
+    top: 1%;
+   bottom: 2%;
+   right:1%; 
+}
+@media screen and (min-width:800px) and (max-width:1200px)
+{
+    .option
+    {
+        margin-left:50%;
+        margin-top:3%;
+    }
+    .matter
+    {
+        margin-top: 18%;
+    }
+}
+.feedback 
+{
+    margin-left: -45%;
+    margin-top: 5%;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+.feedback p{
+    font-size:32px;
+    font-weight:550;
+    margin-bottom: 4%;
+    color: #89023e;
+}
+textarea
+{
+    margin-bottom: 3%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px solid lightgray;
+    width: 90%;
+}
+.feedback input
+{
+    padding: 3%;
+    width: 50%;
+}
+#cname
+{
+    margin-bottom:5% ;
+    height: 10px;
+    border: none;
+    width:60%;
+    border: 2px solid lightgray;
+}
+.comment-box
+{
+    padding:5%;
+    padding-left: 2%;
+    text-align: left;
+    width: 70%;
+}
+.Comment
+{
+    font-size:x-large !important;
+    font-weight: 500 !important;
+    font-family:Georgia, 'Times New Roman', Times, serif !important;
+    color:rgb(102, 97, 97) !important;
+    font-style: italic;
+}
+.comment-boxx
+{
+    padding: 3%;
+    padding-left: 5%;
+    box-shadow: 1px 1px 5px 4px rgb(219, 218, 218);
+}
+h5
+{
+    color:rgb(85, 83, 83);
+    line-height:15px;
+}
+.containe-two
+{
+height: 30%;
+padding: 1%;
+width:22%;
+text-align: center;  
+box-shadow: 2px 3px 8px 2px rgb(184, 181, 181);
+background: linear-gradient(to bottom right, #ff7676, #89023e);
+}
+.containe-two p
+{
+    font-size:x-large;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+ margin-bottom: 3%;
+}
+.containe-two div
+{
+    width: 100%;
+    margin-bottom: 3%;
+    background-color: #fff;
+    height: 30px;
+    font-size: large;
+}
+.containe-two div:hover
+{
+    background-color:rgb(238, 238, 238);
+    color: #89023e;
+    box-shadow: 1px 1px 3px 4px #fcebeb;
+    transform: translate(4px,-4px);
+}
+.containe-two img
+{
+    margin-top: 2%;
+}
+.containe-two div a
+{
+    text-decoration: none;
+    color: black;
+}
+@media screen and (max-width:800px) {
+    .containe
+    {
+        width: 90% !important;
+    }
+    .heading
+    { 
+        text-align:left;
+    }
+    .image img
+    {    
+        width: 300px;
+    }
+    .containe-two div
+    {
+        height: 40px;
+    }
+    .containe-two img
+    {
+        display: none;
+    }
+   .image
+    {
+        margin-bottom:-1%;
+        margin-left: 4%;
+    }
+    .extra h3
+   {
+    margin-left: 10%;
+   }
+.extra h5
+{
+    margin-left: 10%;
+}
+.extra img 
+{
+    margin-left: 10%;
+}
+.matter::before
+{
+    content: "L";
+    font-size: 60px;
+    position: relative;
+    top: 0.6%;
+   bottom:-2%;
+   right:1%; 
+}
+}
+@media (max-width:1200px) {
+    .feedback
+    {
+        margin-left: 0%;
+        text-align: center;
+    }
+    .comment-box
+    {
+        margin-left: 15%;
+    }
+    /*.matter
+    {
+        text-align:left;  
+    }*/
+}
+@media screen and (min-width:1440px) {
+    .matter
+    {
+        margin-top:13%;
+    }
+    .option
+    {
+        margin-top: 5%;
+    }
+}
