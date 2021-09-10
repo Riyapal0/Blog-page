@@ -130,7 +130,14 @@ main{
     padding:2%;
     padding-left:6%;
     display: flex;
+    flex-direction:row;
+}
+@media screen and(max-width:800px){
+  .contain
+  {
+    display: flex;
     flex-direction:column;
+  }
 }
 section h1
 {
