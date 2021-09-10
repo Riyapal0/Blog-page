@@ -130,7 +130,7 @@ main{
     padding:2%;
     padding-left:6%;
     display: flex;
-    flex-direction:row;
+    flex-direction:column;
 }
 section h1
 {
